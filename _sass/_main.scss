@@ -413,19 +413,19 @@ ul.topbar {
 	background-repeat: no-repeat;
 
 	&:vertical:decrement {
-		background-image: url("/assets/img/up.png");
+		background-image: url("{{  site.url }}{{  site.baseurl }}/assets/img/up.png");
 	}
 
 	&:vertical:increment {
-		background-image: url("/assets/img/down.png");
+		background-image: url("{{  site.url }}{{  site.baseurl }}/assets/img/down.png");
 	}
 
 	&:horizontal:decrement {
-		background-image: url("/assets/img/left.png");
+		background-image: url("{{  site.url }}{{  site.baseurl }}/assets/img/left.png");
 	}
 
 	&:horizontal:increment {
-		background-image: url("/assets/img/right.png");
+		background-image: url("{{  site.url }}{{  site.baseurl }}/assets/img/right.png");
 	}
 
 	&:active {
