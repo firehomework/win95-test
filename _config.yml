@@ -1,6 +1,6 @@
 permalink: /:year:month:day/:title
-url: http://firehomework.xyz/win95-test #Your url here
-baseurl: /project
+url: "https://firehomework.xyz" #Your url here
+baseurl: "/win95-test"
 
 # variables
 name: Your Site Name
