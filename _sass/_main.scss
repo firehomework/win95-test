@@ -155,7 +155,6 @@ ul.topbar {
 		}
 	}
 }
-
 #tag-list li {
     padding:0 0 0 2px;
 }
@@ -163,7 +162,6 @@ ul.topbar {
     background: #fff8ff;
     display:block;
 }
-
 .post_total {
 	.left, .right {
 		border: 1px solid;
@@ -383,15 +381,16 @@ ul.topbar {
 		}
 	}
 }
-
+::-webkit-scrollbar {
+      width: 16px;
+} /* this targets the default scrollbar (compulsory) */
 ::-webkit-scrollbar-thumb {
 	background-color: #cccccc;
 	border-width: 2px;
 	border-style: groove ridge ridge groove;
 	border-color: #fff8ff #000000 #000000 #fff8ff;
 } /* this will style the thumb, ignoring the track */
- 
-
+  
 ::-webkit-scrollbar-corner {
 	background-color: #cacaca;
 } /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
