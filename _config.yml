@@ -12,10 +12,6 @@ google_verification: null
 include: [".htaccess"]
 exclude: ["README.md", "LICENSE"]
 
-collections_dir     : collections
-
-
- 
 # Markdown
 markdown: kramdown
 kramdown:
