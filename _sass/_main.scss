@@ -160,9 +160,7 @@ ul.topbar {
 		}
 	}
 }
-#tag-list {
-    background:transparent url({{  site.url }}{{  site.baseurl }}/assets/img/pixel-alt.png) repeat-y 15px 0;
-}
+
 #tag-list li {
     padding:0 0 0 2px;
 }
@@ -170,11 +168,7 @@ ul.topbar {
     background: #fff8ff;
     display:block;
 }
-#tag-list li ul li {
-    background:transparent url({{  site.url }}{{  site.baseurl }}/assets/img/pixel-alt.png) repeat-x 0 8px;
-    margin:4px 0 4px 13px;
-    padding:0 0 0 20px;
-}
+
 .post_total {
 	.left, .right {
 		border: 1px solid;
@@ -394,14 +388,7 @@ ul.topbar {
 		}
 	}
 }
-::-webkit-scrollbar {
-      width: 16px;
-} /* this targets the default scrollbar (compulsory) */
-::-webkit-scrollbar-track {
-	background-image: url("{{  site.url }}{{  site.baseurl }}/assets/img/track.png");
-	background-repeat: repeat-x repeat-y;
-} /* the new scrollbar will have a flat appearance with the set background color */
- 
+
 ::-webkit-scrollbar-thumb {
 	background-color: #cccccc;
 	border-width: 2px;
@@ -409,35 +396,7 @@ ul.topbar {
 	border-color: #fff8ff #000000 #000000 #fff8ff;
 } /* this will style the thumb, ignoring the track */
  
-::-webkit-scrollbar-button {
-	background-color: #cccccc;
-	border-width: 2px;
-	border-style: groove ridge ridge groove;
-	border-color: #fff8ff #000000 #000000 #fff8ff;
-	background-position: center center;
-	background-repeat: no-repeat;
 
-	&:vertical:decrement {
-		background-image: url("{{  site.url }}{{  site.baseurl }}/assets/img/up.png");
-	}
-
-	&:vertical:increment {
-		background-image: url("{{  site.url }}{{  site.baseurl }}/assets/img/down.png");
-	}
-
-	&:horizontal:decrement {
-		background-image: url("{{  site.url }}{{  site.baseurl }}/assets/img/left.png");
-	}
-
-	&:horizontal:increment {
-		background-image: url("{{  site.url }}{{  site.baseurl }}/assets/img/right.png");
-	}
-
-	&:active {
-		background-position: 1px 2px;
-	}
-} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
- 
 ::-webkit-scrollbar-corner {
 	background-color: #cacaca;
 } /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
